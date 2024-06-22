@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Mart Website </title>
+    <link rel="icon" type="image/png" href="data:image/png;base64,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">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="link rel="preconnect href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="main-container">
+
+
+        <div class="nav-1">
+        <ul>
+            <li>Gift card</li>
+            <li>Find Stores</li>
+            <li>Help</li>
+        </ul>
+        </div>
+
+        <div class="nav-2">
+            <img src="kmart_logo.webp" alt="">
+            <ul>
+                <li>Shop</li>
+                <li>Deals</li>
+                <li>Repairs</li>
+            
+            </ul>
+            <input type="text" placeholder="Find Something great ">
+
+            <ol>
+                <li>My Orders</li>
+                <i class="fa-regular fa-user"></i><li>  Sign-In <br>
+                Your Points</li>
+            <img src="./Screenshot 2024-05-31 154922.png" alt="">
+            </ol>
+
+        </div>
+        <!-- NAV END -->
+
+        <div class="section-1">
+            <div class="left">
+              
+            </div>
+            <div class="right">
+             
+            </div>
+        </div>
+        <!-- SECTION 1 END -->
+ <div class="category">
+    <h1>Shop By Category</h1>
+ </div>
+        <div class="section-2">
+            <div class="box">
+
+                <img src="https://www.kmart.com/staticpage/content/kmart/shc/en/homepage/images/k-hp-vis-nav-appliance.jpg" alt="">
+                <h4>Appliance</h4>
+            </div>
+            <div class="box">
+
+                <img src="https://www.kmart.com/staticpage/content/kmart/shc/en/homepage/images/k-hp-vis-nav-home.jpg" alt="">
+                <h4>Bed & Bath</h4>
+            </div>
+
+
+            <div class="box">
+
+                <img src="./d3.webp" alt="">
+                <h4>Grills</h4>
+            </div>
+            <div class="box">
+
+                <img src="https://www.kmart.com/staticpage/content/kmart/shc/en/homepage/images/k-hp-vis-nav-outdoor-play.jpg" alt="">
+                <h4>Outdoor Play</h4>
+            </div>
+            
+            <div class="box">
+
+                <img src="./d5.jpg" alt="">
+                <h4>Outdoor Activity</h4>
+            </div>
+
+            <div class="box">
+
+                <img src="d6.jpg" alt="">
+                <h4>Shoes</h4>
+            </div>
+
+            <div class="box">
+
+                <img src="./d7.jpg" alt="">
+                <h4>Electronics</h4>
+            </div>
+            <div class="box">
+
+                <img src="./d8.jpg" alt="">
+                <h4>Clothing</h4>
+            </div>
+            <div class="box">
+
+                <img src="./d9.webp" alt="">
+                <h4>Fitness</h4>
+            </div>
+             <div class="box">
+
+                <img src="./d10.jpg" alt="">
+                <h4>Tools</h4>
+            </div>
+            <div class="box">
+
+                <img src="./d11.webp" alt="">
+                <h4>Lawn & Garden</h4>
+            </div>
+            <div class="box">
+
+                <img src="d12.webp" alt="">
+                <h4>Patio</h4>
+            </div>
+            <div class="box">
+
+                <img src="./d13.webp" alt="">
+                <h4>Tires & Wheels</h4>
+            </div>
+            <div class="box">
+
+                <img src="./d14.jpg" alt="">
+                <h4>Hot deals</h4>
+            </div>
+             
+
+        </div>
+
+        
+        <div class="section-3">
+            <h1>UPDATE YOUR OUTDOOR</h1>
+        </div>
+        <div class="section-4">
+            <div class="left-page">
+                <!-- <img src="./leftt.webp" alt=""> -->
+
+            </div>
+            <div class="right-page">
+
+            </div>
+
+        </div>
+        <div class="section-5">
+            <div class="under-six">
+
+            </div>
+
+        </div>
+        <div class="seven">
+            <h1>Shop Our Top Brands</h1>
+        </div>
+
+        <div class="eigth">
+
+            <div class="box">
+
+                <img src="https://www.kmart.com/staticpage/content/kmart/shc/en/homepage/images/vis-nav-frigidaire.webp" alt="">
+                <h4>Frigidiare Appliance</h4>
+            </div>
+
+            <div class="box">
+
+                <img src="https://www.kmart.com/staticpage/content/kmart/shc/en/homepage/images/vis-nav-LG.webp" alt="">
+                <h4>LG Appliance</h4>
+            </div>
+
+            <div class="box">
+
+                <img src="https://www.kmart.com/staticpage/content/kmart/shc/en/homepage/images/vis-nav-ge-appliances.webp" alt="">
+                <h4>GE Appliance</h4>
+            </div>
+            <div class="box">
+
+                <img src="https://www.kmart.com/staticpage/content/kmart/shc/en/homepage/images/vis-nav-weber.webp" alt="">
+                <h4>Weber Grills & Accesories</h4>
+            </div>
+            <div class="box">
+
+                <img src="https://www.kmart.com/staticpage/content/kmart/shc/en/homepage/images/vis-nav-sunjoe.webp" alt="">
+                <h4>Sun Joe Lawn Garden</h4>
+            </div>
+            <div class="box">
+
+                <img src="https://www.kmart.com/staticpage/content/kmart/shc/en/homepage/images/vis-nav-cost-way.webp" alt="">
+                <h4>CostWay outdoor Living</h4>
+            </div>
+           
+
+        </div>
+<div class="nine">
+    <div class="box">
+
+        <img src="https://www.kmart.com/staticpage/content/kmart/shc/en/homepage/images/vis-nav-craftsman.webp" alt="">
+        <h4>CraftsMan Tools</h4>
+    </div>
+    <div class="box">
+
+        <img src="https://www.kmart.com/staticpage/content/kmart/shc/en/homepage/images/vis-nav-dewalt.webp" alt="">
+        <h4>DeWalt Tools</h4>
+    </div>
+    <div class="box">
+
+        <img src="https://www.kmart.com/staticpage/content/kmart/shc/en/homepage/images/vis-nav-milwaukee.webp" alt="">
+        <h4>MilWaukee Tools</h4>
+    </div>
+    <div class="box">
+
+        <img src="https://www.kmart.com/staticpage/content/kmart/shc/en/homepage/images/vis-nav-nike.webp" alt="">
+        <h4>Nike Cothing & Shoes</h4>
+    </div>
+    <div class="box">
+
+        <img src="https://www.kmart.com/staticpage/content/kmart/shc/en/homepage/images/vis-nav-adidas.webp" alt="">
+        <h4>Addidas Clothing & shoe</h4>
+    </div>
+    <div class="box">
+
+        <img src="https://www.kmart.com/staticpage/content/kmart/shc/en/homepage/images/vis-nav-levis.webp" alt="">
+        <h4>Levi's clothing</h4>
+    </div>
+    
+    
+
+</div>
+
+<!--  code -->
+
+
+<div class="section-4">
+    <h1>NOW TRENDING</h1>
+</div>
+<div class="section-5">
+    <div style="background-image:url(leftt.webp);" class="left-page">
+
+    </div>
+    <div style="background-image: url(./Screen\ shottt.png);" class="right-page">
+
+    </div>
+
+</div>
+
+<div class="section-6">
+    <div class="under-six">
+
+    </div>
+ 
+</div>
+
+<hr style="margin-top: 5%;">
+<h1 id="h11">best Sellers</h1>
+<div class="card-sec">
+    <div class="card">  
+        <img src="https://c.shld.net/rpx/i/s/i/mp/10265773/prod_12208808904?hei=245&wid=245&op_sharpen=1&qlt=85" alt="">
+        <h2>$ <del>4,599.00</del></h2>
+        <h1>$4,499.00</h1>
+        <h3>Hus1verna Z242F(42") <br>
+        21.5HP Kawasaki Zero Turn <br>
+    Mower - 970458801</h3>
+
+    <h5>sold By AE Outdoor Power</h5>
+    </div>
+
+    <div class="card">
+        <img src="https://c.shld.net/rpx/i/s/pi/mp/10153191/prod_19174741524?src=https%3A%2F%2Fd3d71ba2asa5oz.cloudfront.net%2F12023025%2Fimages%2Fhw63214tuwa72902.jpg&d=cd6df91842a3785bcd53729d8224d783b4866676&hei=245&wid=245&op_sharpen=1&qlt=85" alt="">
+        <h2>$ <del>$314.99</del></h2>
+        <h1>$209.99</h1>
+        <h3>Costway for PCS outdoor<br>
+        Patio PE Ratten Wicker <br>
+    Table Shelf Sofa Fur..</h3>
+
+    <h5>sold By Factory Direct Sale </h5>
+    </div>
+
+
+    <div class="card">
+        <img src="https://c.shld.net/rpx/i/s/pi/mp/10149701/prod_6522340130?src=http%3A%2F%2Fecx.images-amazon.com%2Fimages%2FI%2F41Dw%252Br9HRiL._SX300_.jpg&d=365264360b45b87b0bffb49ca047965c73f25b4d&hei=245&wid=245&op_sharpen=1&qlt=85" alt="">
+        <h2>$ <del>4,599.00</del></h2>
+        <h1>$4,499.00</h1>
+        <h3>Hus1verna Z242F(42") <br>
+        21.5HP Kawasaki Zero Turn <br>
+    Mower - 970458801</h3>
+
+    <h5>sold By AE Outdoor Power</h5>
+        
+    </div>
+
+    <div class="card">
+        <img src="https://c.shld.net/rpx/i/s/pi/mp/10465961/prod_6275388803?src=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F71b5xeEqXoL.US1500_.jpg&d=3416698281e7d29e94adf2cd5540ba563c5041d6&hei=245&wid=245&op_sharpen=1&qlt=85" alt="">
+        <h2>$ <del>$314.99</del></h2>
+        <h1>$209.99</h1>
+        <h3>Costway for PCS outdoor<br>
+        Patio PE Ratten Wicker <br>
+    Table Shelf Sofa Fur..</h3>
+
+    <h5>sold By Factory Direct Sale </h5>
+       
+    </div>
+
+    <div class="card">
+        <img src="https://c.shld.net/rpx/i/s/pi/mp/10672767/prod_20002260810?src=https%3A%2F%2Fimage.vevor.com%2Fus%252FMCQGDJL1415HPTM7WV1%252Fgoods_img-v2%252Fband-saw-m100-1.2.jpg&d=53c97493ffec4620fd17c8af062a566b230bc8ea&hei=245&wid=245&op_sharpen=1&qlt=85" alt="">
+        <h2>$ <del>4,599.00</del></h2>
+        <h1>$4,499.00</h1>
+        <h3>Hus1verna Z242F(42") <br>
+        21.5HP Kawasaki Zero Turn <br>
+    Mower - 970458801</h3>
+
+    <h5>sold By AE Outdoor Power</h5>
+        <!-- <h2>$ <del>1,997.90</del></h2>
+        <h1>$1,198.74</h1>
+        <h3>VEVOR BAND Saw, 14 inch<br>
+        480-960 RPM Continuesly<br>
+    Vibel Benchto..</h3>
+
+    <h5>sold By Sterning retail corporationr</h5> -->
+    </div>
+
+
+
+    <div class="card">
+        <img src="https://c.shld.net/rpx/i/s/pi/mp/27512/prod_77886414?src=http%3A%2F%2Fecx.images-amazon.com%2Fimages%2FI%2F31XDwiIQDmL._SL250_.jpg&d=f83b78a0fd90cfdb5987332768863b7885819800&hei=245&wid=245&op_sharpen=1&qlt=85" alt="">
+        
+
+        <h2>$ <del>$314.99</del></h2>
+        <h1>$209.99</h1>
+        <h3>Costway for PCS outdoor<br>
+        Patio PE Ratten Wicker <br>
+    Table Shelf Sofa Fur..</h3>
+
+    <h5>sold By Factory Direct Sale </h5>
+    </div>
+
+
+
+
+
+
+</div>
+<hr>
+
+<div class="footer">
+    <ul>
+        <li><h3>Customer Service</h3></li>
+        <li>Contact Us</li>
+        <li>Order Status</li>
+        <li>Return & Exchange</li>
+        <li>Shipping & Delivery</li>
+        <li>Sign Up for Emails</li>
+    </ul>
+
+    <ul>
+        <li><h3>Payment Option</h3></li>
+         <li>Gift Cards</li>
+        
+    </ul>
+    <ul>
+       <li> <h3>Gifts</h3></li>
+        <li>Gift Cards</li>
+        <li>Gift Cards Balance</li>
+    </ul>
+    <ul>
+       <li> <h3>stores</h3></li>
+        <li>Store locator</li>
+    </ul>
+
+</div>
+
+<div class="grey-part">
+    <ul>
+        <li>Corporate Website</li>
+        <li>Careers</li>
+        <li>Accessibility</li>
+        <li>California privacy Rights</li>
+        <li>California Transparency Act</li>
+        <li>Interest Based Ads</li>
+
+    </ul>
+
+
+      <ul>
+        <li>payment methodes</li>
+        <li>Privacy policy</li>
+        <li>Term of use</li>
+        <li>Product Recalls</li>
+        <li>California Cleaning Product Right to Know Act</li>
+        
+    </ul> 
+    <ul><li>Do not sell or share My Personal Information</li></ul> 
+</div>
+
+<div class="visit-part">
+    <h4>Visit our other sites</h4>
+    <div class="image-section">
+        <img src="./Kenmore.webp" alt="">
+        <img src="./Sears.webp" alt="">
+        <img src="./Sears_PartsDirect.webp" alt="">
+        <img src="./Sears_Puerto Rico.webp" alt="">
+        <img src="./Sears_HomeServices.webp" alt="">
+
+    </div>
+</div>
+      
+    </div>
+    
+</body>
+</html>
